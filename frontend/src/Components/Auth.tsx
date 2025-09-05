@@ -7,7 +7,7 @@ import {BACKEND_URL} from "../config"
 
 export const Auth = ({ type }: { type: "SignUp" | "SignIn" }) => {
     const navigate = useNavigate();
-    const [postInputs, setPostInputs] = useState<SignUpInput>({
+    const [postInputs, setPostInputs] = useState<Partial<SignUpInput>>({
         name: "",
         email: "",
         password: ""

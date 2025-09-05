@@ -1,5 +1,4 @@
-// BlabberWordmarkSlate.tsx
-import React from "react";
+
 
 export type BlabberWordmarkSlateProps = {
   height?: number;           // SVG height in px
